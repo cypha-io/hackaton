@@ -47,7 +47,13 @@ const Mentors = () => {
           role: "Speech and Language Therapist",
           bio: "Gifty Ayoka is a Speech and Language Therapist and Assistant Lecturer at the University of Health and Allied Sciences (UHAS). She is dedicated to improving communication for children and adults, with a focus on inclusion, disability rights, and accessibility. Gifty co-authored a study on automated speech recognition in Ghana and is currently part of a research team collecting voice data from individuals with speech impairments to support the development of inclusive AI technologies in local languages.",
           image: "/images/mentor/gifty.jpg" // Add this image to your public folder
-        }, 
+        },
+        {
+          name: "Dr. Richard Cave",
+          role: "Speech and Language Therapist",
+          bio: "Dr. Richard Cave is co-Director of the Centre for Digital Language Inclusion at UCL’s Global Disability Innovation Hub. He specializes in speech recognition for 'non-standard' speech and has clinical experience with individuals affected by speech changes. He also advised the Royal College of Speech and Language Therapists and consulted for Google Research on related technologies from 2019 to 2024.",
+          image: "/images/mentor/richard.jpg" // Add this image to your public folder
+        },  
       ]
     },
     {
