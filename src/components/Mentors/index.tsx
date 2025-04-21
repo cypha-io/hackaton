@@ -29,6 +29,12 @@ const Mentors = () => {
           role: "UX/UI, Inclusive Designer",
           bio: "Dr. Tigmanshu Bhatnagar is a lecturer in Computer Science at UCL and a research fellow at the Global Disability Innovation Hub. With over a decade of experience, he designs assistive technologies to improve the lives of people with disabilities. He co-led India’s Attvaran Start-up accelerator, supporting 20 assistive tech ventures, and co-invented a patented soft pneumatic exoskeleton. His PhD project Tacilia won the Innovation of the Year 2023 award. A former guest faculty at IIT Delhi’s Department of Design, he was honoured with the Universal Design Award in 2018 for his grassroots work in India. Tigmanshu’s work blends innovation and empathy to foster a more inclusive world.",
           image: "/images/mentor/tigmanshu.jpg" // Add this image to your public folder
+        },
+        {
+          name: "Preetham Nagaraj",
+          role: "UX/UI Designer",
+          bio: "Preetham Nagaraj is currently pursuing a PhD at UCL under the supervision of Prof. Catherine Holloway. He holds a double master’s degree—an MSc in Computer Science from the University of Illinois at Chicago and an MSc in Human-Computer Interaction from UCL. Before starting his PhD, Preetham worked as a UX designer for over a decade across the US, the UK, and India. He has worked with multiple organisations, designing user experiences in fields such as robotics, biotechnology, and advertising",
+          image: "/images/mentor/preetham.jpeg" // Add this image to your public folder
         }, 
       ]
     },
