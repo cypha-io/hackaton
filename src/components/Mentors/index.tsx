@@ -5,22 +5,61 @@ const Mentors = () => {
     {
       title: "Technical",
       description: "AI, ASR, NLP, app development",
+      mentors: [
+        {
+          name: "Dr. Katrin Tomanek",
+          role: "AI Research Engineer",
+          bio: "Specializing in Natural Language Processing, Machine Translation, and Speech Recognition. PhD in Computer Science from TU Dortmund, Germany. Former Google Research lead for ASR in Project Euphonia, now AI Tech Lead at GDIHub's Centre for Digital Language Inclusion, working to ensure digital language technology serves everyone, regardless of speech patterns.",
+          image: "/images/mentor/katrin.jpg" // Add this image to your public folder
+        },
+        {
+          name: "Dr. Emmanuel Ahene",
+          role: "AI and Cybersecurity researcher, and technology consultant.",
+          bio: "Dr. Emmanuel Ahene is a Computer Science lecturer and Co-Founder of Cyberpass Consult, with expertise in cybersecurity and machine learning. He leads research in Secure AI, focusing on healthcare, education, and cyber-attack detection. He has published over 20 articles, supervised numerous students, and received the 2023 KNUST Vice Chancellor’s Award for Innovation. As PI of the SignTalk project, he is developing a secure AI model to support doctor-patient communication for the hearing-impaired. He also trains IT professionals nationwide and serves as editor and reviewer for top journals.",
+          image: "/images/mentor/emmanuel.jpeg" // Add this image to your public folder
+        },
+      ]
     },
     {
       title: "Accessibility",
       description: "UX/UI, inclusive design, user testing",
+      mentors: [
+        {
+          name: "Dr. Tigmanshu Bhatnagar",
+          role: "UX/UI, inclusive designer",
+          bio: "Dr. Tigmanshu Bhatnagar is a lecturer in Computer Science at UCL and a research fellow at the Global Disability Innovation Hub. With over a decade of experience, he designs assistive technologies to improve the lives of people with disabilities. He co-led India’s Attvaran Start-up accelerator, supporting 20 assistive tech ventures, and co-invented a patented soft pneumatic exoskeleton. His PhD project Tacilia won the Innovation of the Year 2023 award. A former guest faculty at IIT Delhi’s Department of Design, he was honoured with the Universal Design Award in 2018 for his grassroots work in India. Tigmanshu’s work blends innovation and empathy to foster a more inclusive world.",
+          image: "/images/mentor/tigmanshu.jpg" // Add this image to your public folder
+        }, 
+      ]
     },
     {
       title: "User/Speech and Language Therapist",
       description: "Expertise in speech therapy and user needs",
+      mentors: [
+        {
+          name: "Gifty Ayoka",
+          role: "Speech and Language Therapist",
+          bio: "Gifty Ayoka is a Speech and Language Therapist and Assistant Lecturer at the University of Health and Allied Sciences (UHAS). She is dedicated to improving communication for children and adults, with a focus on inclusion, disability rights, and accessibility. Gifty co-authored a study on automated speech recognition in Ghana and is currently part of a research team collecting voice data from individuals with speech impairments to support the development of inclusive AI technologies in local languages.",
+          image: "/images/mentor/gifty.jpg" // Add this image to your public folder
+        }, 
+      ]
     },
     {
       title: "Cultural",
       description: "Ghanaian linguistic and contextual adaptation",
+      mentors: []
     },
     {
       title: "Business",
       description: "Scaling solution, impact assessment, and market viability",
+      mentors: [
+        {
+          name: "Dr Nana Assyne",
+          role: "Software Engineer and Software Startup Engineer",
+          bio: "Nana Assyne is a passionate and driven technology enthusiast with a background in Software Engineering and Software Startup Engineering. He is deeply interested in innovative problem-solving, collaborative development, and building scalable tech solutions. Nana focuses on scaling solutions, impact assessment, and market viability, ensuring that every project he contributes to is both sustainable and user-centered. With a strategic mindset and hands-on experience in fast-paced environments, he is excited to bring his skills and energy to this hackathon.",
+          image: "/images/mentor/Nana.png" // Add this image to your public folder
+        },
+      ]
     },
   ];
 
@@ -33,14 +72,32 @@ const Mentors = () => {
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {categories.map((category, index) => (
-            <div key={index} className="bg-white p-6 rounded-lg shadow-md">
-              <h2 className="text-xl font-bold mb-2">{category.title}</h2>
+            <div key={index} className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+              <h2 className="text-xl text-black font-bold mb-2">{category.title}</h2>
               <p className="text-gray-600 mb-4">{category.description}</p>
-              <ul className="space-y-2">
-                {/* <li className="text-gray-600 italic">Mentor 1 (Placeholder)</li>
-                <li className="text-gray-600 italic">Mentor 2 (Placeholder)</li>
-                <li className="text-gray-600 italic">Mentor 3 (Placeholder)</li> */}
-              </ul>
+              <div className="space-y-8">
+                {category.mentors.map((mentor, mIndex) => (
+                  <div key={mIndex} className="flex flex-col items-center">
+                    <div className="w-32 h-32 rounded-lg overflow-hidden mb-4 border-2 border-gray-200">
+                      <img 
+                        src={mentor.image}
+                        alt={mentor.name}
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
+                    <div className="text-center">
+                      <h3 className="font-semibold text-gray-900 text-lg">{mentor.name}</h3>
+                      <p className="text-sm text-blue-600 mb-2">{mentor.role}</p>
+                      <p className="text-sm text-gray-600 text-justify">{mentor.bio}</p>
+                    </div>
+                  </div>
+                ))}
+                {category.mentors.length === 0 && (
+                  <div className="text-gray-400 italic text-center py-4">
+                    Mentors to be announced soon
+                  </div>
+                )}
+              </div>
             </div>
           ))}
         </div>
