@@ -17,7 +17,7 @@ export default function Home() {
       <ScrollUp />
       <Hero />
       <Features />
-      <CallToAction />
+      {/* <CallToAction /> */}
       <Mentors />
       <Faq />
       <Materials />
