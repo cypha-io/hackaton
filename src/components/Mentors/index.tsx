@@ -72,7 +72,7 @@ const Mentors = () => {
   return (
     <section className="py-8 px-6 bg-gray-100">
       <div className="container mx-auto">
-        <h1 className="text-3xl font-bold text-center mb-4">Mentors</h1>
+        <h1 className="text-3xl font-bold text-center mb-4 dark:text-black">Mentors</h1>
         <p className="text-center mb-6 text-gray-700">
           Meet our mentors across various categories. Each category will have at least 3 mentors.
         </p>

@@ -22,12 +22,12 @@ const Materials = () => {
     <section className="py-8 px-6 bg-gray-100">
       <div className="container mx-auto">
         <div className="flex justify-between items-center mb-4">
-          <h1 className="text-3xl font-bold">Hackathon Materials</h1>
+          <h1 className="text-3xl dark:text-black font-bold">Hackathon Materials</h1>
           <Link
             href={googleDriveFolderLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="px-4 py-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300 transition-colors"
+            className="px-4 py-2 bg-gray-200 text-gray-700 dark:bg-dark dark:text-white dark:hover:bg-gray-400 rounded-md hover:bg-dark hover:text-white transition-colors"
           >
             View All
           </Link>
