@@ -18,6 +18,12 @@ const Mentors = () => {
           bio: "Dr. Emmanuel Ahene is a Computer Science lecturer and Co-Founder of Cyberpass Consult, with expertise in cybersecurity and machine learning. He leads research in Secure AI, focusing on healthcare, education, and cyber-attack detection. He has published over 20 articles, supervised numerous students, and received the 2023 KNUST Vice Chancellor’s Award for Innovation. As PI of the SignTalk project, he is developing a secure AI model to support doctor-patient communication for the hearing-impaired. He also trains IT professionals nationwide and serves as editor and reviewer for top journals.",
           image: "/images/mentor/emmanuel.jpeg" // Add this image to your public folder
         },
+        {
+          name: "Mark Atta Mensah",
+          role: "AI Researcher",
+          bio: "Mark Atta Mensah is a Lecturer and AI researcher at the University of Ghana, specializing in ASR, NLP, and Generative AI for low-resource languages. An experienced hackathon coach (Hack4Dev 2025) and EU consultant (STATS4AFRICA Residency, 2024), he mentors teams on developing inclusive, innovative, and scalable AI solutions for real-world social impact.",
+          image: "/images/mentor/mark.jpg" // Add this image to your public folder
+        },
       ]
     },
     {
