@@ -65,7 +65,14 @@ const Mentors = () => {
     {
       title: "Cultural",
       description: "Ghanaian linguistic and contextual adaptation",
-      mentors: []
+      mentors: [
+        {
+          name: "Dr. George Akanlig-Pare",
+          role: "Professor of Linguistics",
+          bio: "Dr. George Akanlig-Pare is an Associate Professor of Linguistics at the University of Ghana, where he teaches Phonetics, Phonology, Morpho-syntax, Sign Language Linguistics, Sociophonetics, and Forensic Linguistics. A recipient of the 2011 Best Teacher Award (Humanities), he chairs the department’s Graduate Studies. His research spans tonology, tone-morpho-syntax, Sign Language, Forensic Linguistics, and Adult Literacy. He has supervised 11 PhD, 40 Master’s theses, and 11 undergraduate long essays, and has published extensively in peer-reviewed journals.",
+          image: "/images/mentor/george.jpg" // Add this image to your public folder
+        },  
+      ]
     },
     {
       title: "Business",
