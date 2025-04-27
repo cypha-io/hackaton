@@ -84,6 +84,24 @@ const Mentors = () => {
           bio: "Nana Assyne is a passionate and driven technology enthusiast with a background in Software Engineering and Software Startup Engineering. He is deeply interested in innovative problem-solving, collaborative development, and building scalable tech solutions. Nana focuses on scaling solutions, impact assessment, and market viability, ensuring that every project he contributes to is both sustainable and user-centered. With a strategic mindset and hands-on experience in fast-paced environments, he is excited to bring his skills and energy to this hackathon.",
           image: "/images/mentor/Nana.png" // Add this image to your public folder
         },
+        {
+          name: "Bhanu Prasad",
+          role: "Entrepreneur",
+          bio: "Bhanu Prasad is Head of Innovation and Entrepreneurship Ecosystems, Digital Impact Square (A TCS Foundation Social Incubator). As an impact innovation coach, he guides startups through their journey from concept to scale, encouraging  rapid iterations and failing forward as a means of progress. Based on experience of working with Startups across sectors, he volunteers his time on various advisory boards to build impact ecosystems. Bhanu has degrees in Management from Harvard, Social Policy from Oxford and is a British Govt. Chevening Fellow.",
+          image: "/images/mentor/banu.png" // Add this image to your public folder
+        },
+        {
+          name: "Sameer Rawal",
+          role: "Innovation Coach",
+          bio: "Sameer Rawal is an impact innovation coach and start up mentor at Digital Impact Square ( a TCS Foundation Incubation program). He comes with more than 20 years of experience in Technology led consulting and has worked with multiple social starts up in the Assistive Technology space helping them convert their ideas into products. He is also a technology and innovation evangelist in the Disabilities Sector in India and works closely with various organizations to create impact.",
+          image: "/images/mentor/sameer.png" // Add this image to your public folder
+        },
+        {
+          name: "Bonny Dave",
+          role: "Engineer and Entrepreneur",
+          bio: "Bonny Dave, Co-founder of Trestle Labs, is a first-generation engineer and entrepreneur who has spent the last 8 years using technology to break barriers. With Kibo, he has brought his vision to life—making education and employment inclusive by bridging gaps in language, literacy, and print disabilities. Bonny’s work transforms handwritten, printed, and multilingual content into accessible formats, empowering people and organizations to access any content in the format and language of their choice. Whether it’s creating opportunities for individuals or unlocking data driven insights for industries, Bonny believes in one simple goal: information should be accessible for everyone, everywhere.",
+          image: "/images/mentor/bony.png" // Add this image to your public folder
+        },
       ]
     },
   ];
