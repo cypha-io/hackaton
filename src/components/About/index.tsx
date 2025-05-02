@@ -102,8 +102,8 @@ const About = () => {
           <div className="w-full px-4 lg:w-1/2">
             <div className="mb-12 max-w-[540px] lg:mb-0">
               <h2 className="mb-6 text-2xl font-semibold leading-snug text-dark dark:text-white sm:text-3xl sm:leading-tight">
-                The <Link href="https://cdl-inclusion.com" className="text-blue-500 hover:underline">Centre for Digital Language Inclusion (CDLI)</Link> is led by the <Link href="https://disabilityinnovation.com" className="text-blue-500 hover:underline">Global Disability Innovation Hub</Link> in partnership with <Link href="https://ug.edu.gh" className="text-blue-500 hover:underline">University College London</Link> and <Link href="https://ug.edu.gh" className="text-blue-500 hover:underline">University of Ghana</Link>, funded by UK aid’s <Link href="https://at2030.org" className="text-blue-500 hover:underline">AT2030 programme</Link>, alongside support from <Link href="https://google.org" className="text-blue-500 hover:underline">Google.org</Link>.
-              </h2>
+                The Tɛkyerɛma pa hackathon is a collaboration between <Link href="https://www.ucl.ac.uk/" className="text-blue-500 hover:underline">University College London</Link> and <Link href="https://ug.edu.gh" className="text-blue-500 hover:underline">University of Ghana</Link> to be delivered at the UG, Accra, Ghana in May 2025.          
+                </h2>
               <p className="mb-6 text-base leading-relaxed text-gray-700 dark:text-gray-300">
                 A curated dataset of a selected Ghanaian language, Akan, is available to participants to support their project.
               </p>
