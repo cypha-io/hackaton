@@ -5,7 +5,7 @@ export const pricingData: Price[] = [
   {
     id: "price_1NQk5TLtGdPVhGLecVfQ7mn0",
     unit_amount: 100 * 100,
-    nickname: "Up to $5,000 in cash awards",
+    nickname: "Up to $5,000 in cash awards funded by Project Euphonia",
     icon: FaAward,
     offers: [
       "1st place - $2,500",
@@ -16,7 +16,7 @@ export const pricingData: Price[] = [
   {
     id: "price_1NQk55LtGdPVhGLefU8AHqHr",
     unit_amount: 200 * 100,
-    nickname: "Mentorship opportunities with experts from Google and Global Disability Innovation Hub (GDI Hub), University College of London.",
+    nickname: "Mentorship opportunities with experts from Google, Global Disability Innovation Hub (GDI Hub), University College of London, University of Ghana (UG), Kwame Nkrumah University Of Science and Technology (KNUST) and Ghana Institute of Management and Public Administration (GIMPA)",
     icon: FaChalkboardTeacher,
     offers: [
     ],

@@ -39,8 +39,8 @@ export const clientsData: Client[] = [
   {
     id: 6,
     title: "GDIH",
-    logo: "/images/brands/uog.svg",
-    logoWhite: "/images/brands/uog.svg",
+    logo: "/images/brands/ug.png",
+    logoWhite: "/images/brands/ug.png",
     link: "#",
   },
   {
