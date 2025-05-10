@@ -17,4 +17,5 @@ export const teamDatabase = [
   { teamName: "TwiTalk", password: "twitalk123" },
   { teamName: "KasaYie", password: "kasayie123" },
   { teamName: "YADAH", password: "yadah654" },
+  { teamName: "Voice Craft AI", password: "craft654" },
 ];
